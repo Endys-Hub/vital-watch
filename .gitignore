@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Virtual environment
+venv/
+.env
+
+# Django
+staticfiles/
+media/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Node
+node_modules/
+
+# Frontend build
+dist/
+
+# Tailwind / Vite cache
+.vite/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+
+# Coverage
+htmlcov/
+.coverage
+
+# Render / deployment
+*.pem

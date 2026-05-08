@@ -1,0 +1,1 @@
+web: gunicorn vital_watch.wsgi
