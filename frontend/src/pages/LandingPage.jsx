@@ -238,7 +238,7 @@ export default function LandingPage() {
         {/* CTA */}
         <section className="py-24 px-4 bg-slate-950">
           <div className="max-w-2xl mx-auto text-center">
-            <div className="bg-slate-900 border border-slate-800 rounded-2xl p-12 shadow-[0_2px_40px_rgba(0,0,0,0.6)]">
+            <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-12 shadow-[0_2px_40px_rgba(0,0,0,0.6)]">
               <h2 className="text-3xl font-semibold tracking-tight text-white mb-4">
                 Start protecting your health today
               </h2>

@@ -70,7 +70,7 @@ export default function PatientDetailPage() {
               ) : (
                 <ul className="space-y-2">
                   {patient.risk_history.map((r) => (
-                    <li key={r.id} className="flex items-center justify-between text-sm">
+                    <li key={r.id} className="flex flex-wrap items-center justify-between gap-2 text-sm">
                       <span className={`font-medium ${riskColor(r.overall_risk)}`}>
                         {r.overall_risk}% overall
                       </span>

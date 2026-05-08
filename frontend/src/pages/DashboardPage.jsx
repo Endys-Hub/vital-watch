@@ -101,7 +101,7 @@ export default function DashboardPage() {
   return (
     <AppLayout>
       <div>
-        <div className="flex items-baseline justify-between mb-8">
+        <div className="flex flex-wrap items-baseline justify-between gap-2 mb-8">
           <h1 className="text-2xl font-semibold tracking-tight leading-tight text-white">Dashboard</h1>
           {lastUpdated && (
             <p className="text-xs text-slate-500">Last updated {relativeTime(lastUpdated)}</p>
@@ -116,7 +116,7 @@ export default function DashboardPage() {
           <p className="text-sm text-slate-400">Loading...</p>
         ) : metrics.length === 0 ? (
           <div className="flex items-start justify-center pt-16">
-            <div className="bg-slate-900 border border-slate-800 rounded-xl p-10 ring-1 ring-blue-500/20 shadow-[0_2px_20px_rgba(0,0,0,0.4)] max-w-md w-full">
+            <div className="bg-slate-900 border border-slate-800 rounded-xl p-6 sm:p-10 ring-1 ring-blue-500/20 shadow-[0_2px_20px_rgba(0,0,0,0.4)] max-w-md w-full">
               <div className="w-10 h-10 rounded-lg bg-blue-500 mb-6" />
               <h2 className="text-xl font-semibold tracking-tight leading-tight text-white mb-2">
                 Welcome to VitalWatch

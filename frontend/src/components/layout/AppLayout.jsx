@@ -120,7 +120,7 @@ export default function AppLayout({ children, headerRight }) {
       )}
 
       {/* Scrollable content area */}
-      <div className="flex-1 lg:ml-64 min-h-screen overflow-auto flex flex-col">
+      <div className="flex-1 lg:ml-64 min-h-screen overflow-x-hidden flex flex-col">
 
         {/* Mobile header */}
         <header className="lg:hidden h-14 sticky top-0 z-20 flex items-center justify-between px-4 bg-slate-900 border-b border-slate-800">

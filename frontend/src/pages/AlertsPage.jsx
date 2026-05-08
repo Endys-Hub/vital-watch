@@ -70,7 +70,7 @@ export default function AlertsPage() {
 
   return (
     <AppLayout>
-      <main className="px-8 py-8">
+      <div>
 
         {/* Page header */}
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
@@ -84,7 +84,7 @@ export default function AlertsPage() {
           </div>
 
           {alerts.length > 0 && (
-            <div className="flex items-center gap-2">
+            <div className="flex flex-wrap items-center gap-2">
               {[
                 { key: 'all',    label: 'All',    count: counts.all    },
                 { key: 'high',   label: 'High',   count: counts.high   },
@@ -164,7 +164,7 @@ export default function AlertsPage() {
             ))}
           </ul>
         )}
-      </main>
+      </div>
     </AppLayout>
   )
 }
